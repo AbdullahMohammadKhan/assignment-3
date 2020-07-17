@@ -22,6 +22,9 @@ function woodCalculator(chairQuantity = 0, tableQuantity = 0, bedQuantity = 0) {
 console.log(woodCalculator(1, 1, 1));
 
 function brickCalculator(noOfFloors) {
+  if (noOfFloors < 0) {
+    return "number fo floor cannot be a negative number";
+  }
   var totalHeight = 0;
   var fllorHeight;
   const bricksForOneFloor = 1000;
