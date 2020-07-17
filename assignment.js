@@ -45,7 +45,7 @@ function brickCalculator(noOfFloors) {
 console.log(brickCalculator(3));
 
 var arr = ["11111111111", "ajhkhjhjhjh", "aa", "aaa", "aaaa"];
-function tinyFriends() {
+function tinyFriend() {
   if (arr.length === 0) {
     console.log("array length cannot be null");
     return;
